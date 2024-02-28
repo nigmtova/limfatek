@@ -3,9 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>лимфатек</title>
 </head>
 <body>
+        <div class="home_container">
+            <div class="qora"></div>
+            <div class="home_Top_header">
+                <div class="group">
+                    <img class="i1" src="/img/Group4.png" alt="">
+                    <img class="i2" src="/img/Group (1).png" alt="">
+                    <img class="i3" src="/img/Group.png" alt="">
+                </div>
+                <div class="home_navbar">
+                    <div class="logo">
+                        <img src="/img/logo (2) 1.png" alt="">
+                    </div>
+                    <div class="home_nav_links">
+                        <p><a href="#">О клинике</a></p>
+                        <p><a href="#">приехать на лечение</a></p>
+                        <p><a href="#">Статьи</a></p>
+                        <p><a href="tel::+7 (342) 233-80-58"><span>+7 (342) 233-80-58</span></a></p>
+                    </div>
     
+                    <div class="home_nav_links2">
+                        <div class="logo2">
+                            <img src="/img/logo (2) 1.png" alt="">
+                        </div>
+                        <div class="nav_linksIn">
+                            <p><a href="#">О клинике</a></p>
+                            <p><a href="#">приехать на лечение</a></p>
+                            <p><a href="#">Статьи</a></p>
+                            <p><a href="tel::+7 (342) 233-80-58"><span>+7 (342) 233-80-58</span></a></p>
+                        </div>
+                        <div class="home_top_left_btn">
+                            <button>Записаться на прием</button>
+                        </div>
+                        <div class="close_icon">
+                            <i id="close1" onclick="myFunction2()" class='bx bx-x'></i>
+                        </div>
+                    </div>
+    
+                    <div class="icon_container" >
+                        <i onclick="myFunction()" class='bx bx-menu'></i>
+                    </div>
+                </div>
+    
+                <div class="home_top_headermin">
+                    <div class="home_top_left">
+                        <h1>Лечение в Перми</h1>
+                        <p>Добро пожаловать в г. Пермь!</p>
+                        <p>Для гостей Перми мы подготовили полезную информацию, которая поможет вам чувствовать себя комфортно не только во время пребывания в клинике, но и во время проживания, развлечений и всего, что Вас ожидает в нашем большом и уютном городе на Каме.</p>
+                        <div class="home_top_left_btn">
+                            <button>Записаться на прием</button>
+                        </div>
+                    </div>
+                    <div class="home_top_right">
+                        <img src="/img/75fb6f3c610069e31fcf3c53805068ba.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_mid_header">
+                <div class="mid_header_h1">
+                    <p><a href="#">Главное</a> / <span>Приехать на лечение</span></p>
+                </div>
+                <h1>Приезжайте на лечение и отдых</h1>
+                <div class="home_header_mid_center">
+                    <div class="home_header_mid_card">
+                        <h3>Содержание</h3>
+                        <ul>
+                            <li>Почему на лечение в Пермь?</li>
+                            <li>Первый шаг - онлайн консультация</li>
+                            <li>План лечения?</li>
+                            <li>Как добраться до Перми</li>
+                            <li>Встретим в аэропорту</li>
+                            <li>Где жить в Перми?</li>
+                            <li>Комфорт в Клинике</li>
+                            <li>Добираться в Клинику</li>
+                            <li>Питание, Покупки, Культурная программа</li>
+                            <li>Оплата лечения</li>
+                            <li>Безопасность</li>
+                            <li>Ваши особые пожелания?</li>
+                            <li>О Городе Пермь</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_end_header">
+                <div class="home_end_header_h1">
+                    <h1>Почему на лечение в Пермь?</h1>
+                </div>
+                <div class="home_end_two">
+                    <img id="grp4" src="/img/Group5.png" alt="">
+                    <div class="home_end_left">
+                        <img src="/img/image 141.png" alt="">
+                    </div>
+                    <div class="home_end_right">
+                        <div class="home_end_right_card">
+                            <p>Пермь находится всего в 1,5 часах полета от Москвы и в 4 часах езды на машине от Екатеринбурга. В Перми у Клиники Лимфатек созданы все необходимые условия для прохождения программ диагностики, лечения и реабилитации в комфортных условиях и сжатые сроки. Мы принимали пациентов со всеми мира: от США до Сингапура и конечно же, со всех уголков России. </p>
+                        </div>
+                        <img src="/img/Group5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        function myFunction() {
+          document.querySelector(".home_nav_links2").style = "position: fixed; top: 0; right: 0; transition: 0.5s;"
+          document.querySelector(".qora").style = "display:flex;"
+        }
+
+        function myFunction2() {
+          document.querySelector(".home_nav_links2").style = "position: fixed; top: 0; right: -800px; transition: 1s;"
+          document.querySelector(".qora").style = "display:none;"
+        }
+    </script>
 </body>
 </html>
