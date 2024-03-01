@@ -18,10 +18,15 @@
     margin-bottom: 20px;
 }
 
+.Clinic_main .home_mid_header{
+    padding: 35px 0;
+}
+
 .what_title {
     max-width: 1350px;
     width: 100%;
     margin: auto;
+    margin-top: 30px !important;
 }
 
 .what_cards {
@@ -211,7 +216,7 @@
     max-width: 1350px;
     width: 100%;
     margin: auto;
-    margin-top: 120px !important;
+    margin-top: 100px !important;
 }
 
 .for_border_green_card {
@@ -273,7 +278,7 @@
 }
 
 .for_end_titless {
-    margin-top: 120px !important;
+    margin-top: 100px !important;
     max-width: 1350px;
     width: 100%;
     margin: auto;
@@ -479,6 +484,10 @@
 }
 
 @media(max-width: 500px) {
+    .for_profiles_card{
+        border: 2px solid #74928A;
+        margin-top: 20px;
+    }
     .what_cards {
         grid-template-columns: auto;
     }

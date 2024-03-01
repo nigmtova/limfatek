@@ -12,6 +12,7 @@
 <body>
         <div class="home_container">
             <div class="qora"></div>
+            <div style="padding: 0 20px;" class="for_home_main_padd">
             <div class="home_Top_header">
                 <div class="group">
                     <img class="i1" src="/img/Group4.png" alt="">
@@ -23,8 +24,8 @@
                         <img src="/img/logo (2) 1.png" alt="">
                     </div>
                     <div class="home_nav_links">
-                        <p><a href="#">О клинике</a></p>
-                        <p><a href="#">приехать на лечение</a></p>
+                        <p><a href="./index.html">О клинике</a></p>
+                        <p><a href="./home.html">приехать на лечение</a></p>
                         <p><a href="#">Статьи</a></p>
                         <p><a href="tel::+7 (342) 233-80-58"><span>+7 (342) 233-80-58</span></a></p>
                     </div>
@@ -34,8 +35,8 @@
                             <img src="/img/logo (2) 1.png" alt="">
                         </div>
                         <div class="nav_linksIn">
-                            <p><a href="#">О клинике</a></p>
-                            <p><a href="#">приехать на лечение</a></p>
+                            <p><a href="./index.html">О клинике</a></p>
+                            <p><a href="./home.html">приехать на лечение</a></p>
                             <p><a href="#">Статьи</a></p>
                             <p><a href="tel::+7 (342) 233-80-58"><span>+7 (342) 233-80-58</span></a></p>
                         </div>
@@ -65,8 +66,8 @@
                         <img src="/img/75fb6f3c610069e31fcf3c53805068ba.png" alt="">
                     </div>
                 </div>
-            </div>
-
+            </div></div>
+            
             <div class="home_mid_header">
                 <div class="mid_header_h1">
                     <p><a href="#">Главное</a> / <span>Приехать на лечение</span></p>
@@ -295,40 +296,62 @@
             <div class="home_end_section">
                 <h1>Комфорт в Клинике</h1>
                 <p class="home_end_section_p02">Клиника находится в тихом центре г. Перми в 10 минутах от нашей новой набережной и располагается в отдельном двухэтажном здании.</p>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
-                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
-                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next"><i class='bx bx-arrow-back'></i></div>
-                    <div class="swiper-button-prev"><i class='bx bx-arrow-back'></i></div>
-                  </div>
                 
-                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-                  <script>
-                    var swiper = new Swiper('.swiper-container', {
-                      slidesPerView: 2.5,
-                      centeredSlides: true,
-                      spaceBetween: 30,
-                      initialSlide: 1,
-                    //   loop: true,
-                      pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true
-                      },
-                      navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
-                      },    
-                    });
-                  </script>
-                <div class="for_greens_cards">
-                    <img src="../img/Quotation marks.svg" alt="">
-                    <p>Мы сделали все так, чтобы у каждого пациента была возможность почувствовать комфорт и профессионализм. Мы предложим Вам одноместную или двухместную палату дневного пребывания.</p>
-                </div>
             </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../img/image 149.png" alt=""><h2>Здание Клиники Лимфатек в г. Перми</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 149.png" alt=""><h2>Здание Клиники Лимфатек в г. Перми</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 149.png" alt=""><h2>Здание Клиники Лимфатек в г. Перми</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 149.png" alt=""><h2>Здание Клиники Лимфатек в г. Перми</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 149.png" alt=""><h2>Здание Клиники Лимфатек в г. Перми</h2></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"><i class='bx bx-arrow-back'></i></div>
+                <div class="swiper-button-prev"><i class='bx bx-arrow-back'></i></div>
+              </div>
+              <div style="padding: 20px;" class="for_paddings">
+              <div class="for_greens_cards">
+                <img src="../img/Quotation marks.svg" alt="">
+                <p>Мы сделали все так, чтобы у каждого пациента была возможность почувствовать комфорт и профессионализм. Мы предложим Вам одноместную или двухместную палату дневного пребывания.</p>
+            </div>
+        </div>
+            
+              <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                  slidesPerView: 2.5,
+                  centeredSlides: true,
+                  spaceBetween: 30,
+                  initialSlide: 1,
+                //   loop: true,
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                  },
+                  breakpoints: {
+          300: {
+            slidesPerView: 1.5,
+                  centeredSlides: true,
+                  spaceBetween: 15,
+          },
+          700: {
+            slidesPerView: 2,
+                  centeredSlides: true,
+                  spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2.5,
+                  centeredSlides: true,
+                  spaceBetween: 30,
+          },
+        },    
+                });
+              </script>
 
             <div class="home_client_section">
                 <h1>Добираться в Клинику</h1>
@@ -415,6 +438,55 @@
                 <p>Городу исполняется 300 лет в 2023 году, поэтому Вы с легкостью сможете познакомиться со старинной архитектурой города.</p>
                 <p>Наш город — промышленный и высокотехнологичный, мы строим все: от ракетных двигателей на заводе Протон-ПМ до роботов promobot.</p>
             </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../img/image 156.png" alt=""><h2>Мост через реку Каму в центре города Перми соединяет левый и правый берега</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 156.png" alt=""><h2>Мост через реку Каму в центре города Перми соединяет левый и правый берега</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 156.png" alt=""><h2>Мост через реку Каму в центре города Перми соединяет левый и правый берега</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 156.png" alt=""><h2>Мост через реку Каму в центре города Перми соединяет левый и правый берега</h2></div>
+                  <div class="swiper-slide"><img src="../img/image 156.png" alt=""><h2>Мост через реку Каму в центре города Перми соединяет левый и правый берега</h2></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"><i class='bx bx-arrow-back'></i></div>
+                <div class="swiper-button-prev"><i class='bx bx-arrow-back'></i></div>
+              </div>
+        </div>
+            
+              <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                  slidesPerView: 2.5,
+                  centeredSlides: true,
+                  spaceBetween: 30,
+                  initialSlide: 1,
+                //   loop: true,
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                  },
+                  breakpoints: {
+          300: {
+            slidesPerView: 1.5,
+                  centeredSlides: true,
+                  spaceBetween: 15,
+          },
+          700: {
+            slidesPerView: 2,
+                  centeredSlides: true,
+                  spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2.5,
+                  centeredSlides: true,
+                  spaceBetween: 30,
+          },
+        },    
+                });
+              </script>
 
             <div class="home_end_bottom">
                 <img class="grp01" src="/img/Group (1).png" alt="">
