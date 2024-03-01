@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/clinic.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>лимфатек</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
                     <img class="i1" src="/img/Group4.png" alt="">
                     <img class="i2" src="/img/Group (1).png" alt="">
                     <img class="i3" src="/img/Group.png" alt="">
-                </div>
+                </div>  
                 <div class="home_navbar">
                     <div class="logo">
                         <img src="/img/logo (2) 1.png" alt="">
@@ -100,7 +101,7 @@
                 <div class="home_end_two">
                     <img id="grp4" src="/img/Group5.png" alt="">
                     <div class="home_end_left">
-                        <img src="/img/image 141.png" alt="">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/lTfkxaemwkY" title="Лечение лимфедемы нижних конечностей | Отзыв Татьяны" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="home_end_right">
                         <div class="home_end_right_card">
@@ -284,16 +285,45 @@
                 </div>
             </div>
             <div class="midle_section_bot_imgs">
-                <img src="/img/image 146.png" alt="">
-                <img src="/img/image 146 (1).png" alt="">
-                <img src="/img/image 147.png" alt="">
-                <img src="/img/image 148.png" alt="">
-                <img src="/img/image 147 (1).png" alt="">
+                <img style="width: 17%;" src="/img/image 146.png" alt="">
+                <img style="width: 17%;" src="/img/image 146 (1).png" alt="">
+                <img style="width: 17%;" src="/img/image 147.png" alt="">
+                <img style="width: 22%;" src="/img/image 148.png" alt="">
+                <img style="width: 22%;" src="/img/image 147 (1).png" alt="">
             </div>
 
             <div class="home_end_section">
                 <h1>Комфорт в Клинике</h1>
                 <p class="home_end_section_p02">Клиника находится в тихом центре г. Перми в 10 минутах от нашей новой набережной и располагается в отдельном двухэтажном здании.</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../img/image 149.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"><i class='bx bx-arrow-back'></i></div>
+                    <div class="swiper-button-prev"><i class='bx bx-arrow-back'></i></div>
+                  </div>
+                
+                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                  <script>
+                    var swiper = new Swiper('.swiper-container', {
+                      slidesPerView: 2.5,
+                      centeredSlides: true,
+                      spaceBetween: 30,
+                      initialSlide: 1,
+                    //   loop: true,
+                      pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true
+                      },
+                      navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev'
+                      },    
+                    });
+                  </script>
                 <div class="for_greens_cards">
                     <img src="../img/Quotation marks.svg" alt="">
                     <p>Мы сделали все так, чтобы у каждого пациента была возможность почувствовать комфорт и профессионализм. Мы предложим Вам одноместную или двухместную палату дневного пребывания.</p>
@@ -428,5 +458,7 @@
           document.querySelector(".qora").style = "display:none;"
         }
     </script>
+
+
 </body>
 </html>
