@@ -761,9 +761,9 @@ body {
     padding: 20px 60px;
 } 
 
-.midle_section_bot_imgs img {
-    /* width: 100%; */
-}
+/* .midle_section_bot_imgs img {
+    width: 100%;
+} */
 
 .home_client_section_mid h1 {
     font-size: 35px;
@@ -1399,11 +1399,15 @@ body {
     .home_nav_links {
         display: none;
     }
+    
+    .home_top_right {
+        width: 100%;
+    }
 
     .home_top_headermin {
         position: relative;
         display: flex;
-        justify-content: center;
+
         flex-wrap: wrap-reverse;
         margin-top: 5%;
     }
