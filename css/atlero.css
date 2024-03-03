@@ -1040,6 +1040,10 @@
 }
 
 @media (max-width:750px) {
+    tbody, td, tfoot, th, thead, tr {
+        display: block !important;
+    }
+
     .atle_sect_mid_right {
         width: 100%;
     }
