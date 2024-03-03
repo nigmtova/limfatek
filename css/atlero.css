@@ -1,0 +1,1103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.atle_container {
+    overflow: hidden;
+}
+
+.atle_header_top {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 60px;
+}
+
+.atle_header_top_left {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.atle_header_top_left h3 {
+    margin-bottom: 1.5rem;
+}
+
+.atle_header_top_left p {
+    margin-bottom: 1.5rem;
+}
+
+.atle_header_top_right {
+    width: 400px;
+}
+
+.atle_header_top_right img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.atle_header_mid {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 4%;
+    padding: 20px 60px;
+}
+
+.atle_header_mid_two {
+    display: flex;
+    gap: 45px;
+    width: 100%;
+    max-width: 874px;
+    background: #FFEFD0;
+    padding: 20px 60px 20px 60px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.atle_header_mid_left {
+    width: 100%;
+    max-width: 372px;
+}
+
+.atle_header_mid_right {
+    width: 100%;
+    max-width: 372px;
+}
+
+.yspan {
+    font-weight: 500 !important;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.yspan li {
+    margin-top: 5px;
+}
+
+.nospan li {
+    margin: 0px 0px 0px 20px;
+    font-size: 18px;
+    color: #2a2a2ad7;
+}
+
+.atle_header_end {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.atle_header_end h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_head_end_two {
+    display: flex;
+    gap: 25px;
+}
+
+.atle_head_end_left {
+    width: 100%;
+    max-width: 650px;
+}
+
+.atle_head_end_left_p01 {
+    margin-bottom: 2rem;
+}
+
+.atle_head_end_left h3 {
+    margin-bottom: 1rem;
+}
+
+.atle_head_end_left h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.atle_head_end_text {
+    margin-top: 2rem;
+}
+
+.atle_head_end_text h3 {
+    margin-top: 1.3rem;
+}
+
+.atle_top_main_left_card {
+    margin-top: 1rem;
+}
+
+.atle_main_top {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.atle_main_top h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_main_top p {
+    width: 100%;
+    max-width: 1097px;
+    margin-bottom: 1rem;
+}
+
+.atle_main_top_img {
+    position: relative;
+}
+
+#grp12 {
+    position: absolute;
+    right: -5%;
+    top: 20%;
+    z-index: -1;
+}
+
+#grp11 {
+    position: absolute;
+    left: -5%;
+    top: 20%;
+    z-index: -1;
+}
+
+.atle_main_top_imgs {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.atle_main_top_imgs img {
+    width: 100%;
+}
+.text_mains {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.text_mains h1 {
+    margin-bottom: 2rem;
+}
+
+.text_mains p{
+    text-align: start;
+    font-weight: 500;
+}
+
+.text_mains2 {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5%;
+    padding: 0 60px;
+}
+
+.text_mains2 h1 {
+    margin-bottom: 2rem;
+}
+
+.text_mains2 p{
+    text-align: start;
+    font-weight: 500;
+}
+
+.text_mains3 {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5%;
+    padding: 0 60px;
+}
+
+.text_mains3 p{
+    text-align: start;
+    font-weight: 500;
+}
+
+.text_mains4 h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.text_mains3 h1 {
+    margin-bottom: 2rem;
+}
+
+.text_mains4 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0 60px;
+}
+
+.number_div_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #669999;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.text_cart_title {
+    width: 85%;
+}
+.text_cart_title p {
+    font-size: 13px;
+    text-align: start;
+}
+
+.text_card_img_left {
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.text_card_img_right {
+    text-align: center;
+    width: 120px;
+}
+
+.text_card_img_right img {
+    width: 50px;
+}
+
+
+.read_big {
+    width: 100%;
+    background: #669999;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.read_card_num_1 {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 60px;
+}
+
+.read_card {
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background: #fff;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.read_more img {
+    width: 50%;
+}
+.read_more h1 {
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.read_text {
+    margin-left: 10px;
+}
+
+.read_text h2 {
+    font-size: 20px;
+}
+
+.read_text p {
+    font-size: 15px;
+    color: #7f7f7f;
+    margin-top: 10px;
+}
+
+.price_work {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.price_work h1:nth-child(1){
+    text-align: center;
+}
+
+.min_price_work {
+    width: 80%;
+}
+
+.avtor_and_putes {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+}
+
+.avtor_and_putes_header_text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avtor_and_putes_header_text p{
+    font-weight: 400;
+}
+
+.avtor_and_putes_divs {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.avtor_and_putes_divs_div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avtor_and_putes_divs_div_text {
+    margin-left: 10px;
+}
+
+.avtor_and_putes_divs_div_text p{
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 3px;
+}
+
+.avtor_and_putes_divs2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.avtor_and_putes_divs2 h3 {
+    width: 50%;
+}
+.avtor_and_putes_divs_div2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avtor_and_putes_divs_div_text2 {
+    margin-left: 10px;
+}
+
+.avtor_and_putes_divs_div_text2 p{
+    width: 70%;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 3px;
+}
+
+.table_literueu {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0 60px;
+}
+
+.table_literueu p{
+    font-weight: 400;
+}
+
+.price_work h1 {
+    margin-bottom: 2rem;
+}
+
+.block_block {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 2%;
+    padding: 0 60px;
+}
+
+.blocks_block_block {
+    padding: 10px;
+    background: #74928A;
+    border-radius: 10px;
+    color: white;
+    margin: 3px;
+    font-weight: 300;
+}
+
+.atle_main_mid_blue {
+    width: 100%;
+    max-width: 874px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background: #74928A;
+    display: flex;
+    align-items: center;
+}
+
+.atle_main_mid_blue h3 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.atle_main_mid_blue_p {
+    margin: auto;
+}
+
+.atle_main_mid_blue_p p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+.atle_main_mid {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.atle_main_mid h2 {
+    margin-bottom: 2rem;
+}
+
+.atle_main_mid h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_main_mid_left p {
+    margin-bottom: 1rem;
+}
+
+.atle_main_mid_two {
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.atle_main_mid_table {
+    margin: auto;
+}
+
+.table {
+    width: 100% !important;
+    max-width: 1096px !important;
+    margin: auto !important;
+}
+
+.atle_main_end {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.atle_main_end h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_main_end p {
+    width: 100%;
+    max-width: 1097px;
+}
+
+.Redcycle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #A63737;
+    margin-right: 1rem;
+}
+
+.atle_main_end_textForre h3 {
+    margin-bottom: 1rem;
+}
+
+.atle_sect_top {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.atle_sect_top h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_sect_mid {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+
+.atle_sect_mid h1 {
+    margin-bottom: 2rem;
+}
+
+.atle_sect_mid h3 {
+    margin-bottom: 1rem;
+}
+
+.atle_sect_mid_two {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+@media (max-width:1100px) {
+    .atle_sect_mid_two {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+    }
+
+    .atle_sect_mid_right {
+        margin: auto;
+    }
+
+    .atle_main_mid_two {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 15px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .atle_main_mid_right {
+        margin: auto;
+    }
+
+    .atle_main_mid_blue {
+        width: 100%;
+        max-width: none;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        background: #74928A;
+        display: flex;
+        align-items: center;
+    }
+
+    .atle_head_end_two {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 25px;
+    }
+
+    .atle_head_end_right {
+        width: 100%;
+    }
+
+    .atle_head_end_right img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .atle_head_end_left {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media(max-width: 993px) {
+    .read_card h2 {
+        font-size: 1.6vw;
+    }
+    .read_card p {
+        font-size: 1.4vw;
+    }
+}
+
+@media(max-width: 490px) {
+    .number_div_text {
+        flex-wrap: wrap;
+        position: relative;
+        padding-top: 60px;
+    }
+    .text_card_img_right {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+    }
+    .text_card_img_left {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    }
+
+    .read_card {
+        width: 100%;
+    }
+    .read_card h2 {
+        font-size: 3.5vw;
+    }
+    .read_card p {
+        font-size: 2vw;
+    }
+}
+
+@media(max-width: 1065px) {
+    .avtor_and_putes_divs {
+        width: 90%;
+    }
+    .avtor_and_putes_divs2 {
+        width: 90%;
+    }
+    .avtor_and_putes_divs_div_text2 p {
+        width: 100%;
+    }
+}
+
+@media(max-width: 720px) {
+    .avtor_and_putes_divs {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .avtor_and_putes_divs2 {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .avtor_and_putes_divs_div_text p {
+        width: 100%;
+    }
+    .avtor_and_putes_divs2 h3 {
+        width: 100%;
+    }
+    
+.avtor_and_putes_divs h3 {
+    width: 50%;
+}
+.avtor_and_putes_divs_div,
+.avtor_and_putes_divs_div2 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+@media (max-width:1000px) {
+    .atle_sect_mid {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+        margin-top: 5%;
+    }
+
+    .block_block {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 2%;
+        padding: 0 20px;
+    }
+
+    .avtor_and_putes {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+    }
+
+    .table_literueu {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 3%;
+        padding: 0 25px;
+    }
+
+    .read_card_num_1 {
+        width: 100%;
+        max-width: 1440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        padding: 20px 25px;
+    }
+
+    .text_mains {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains2 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains3 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains4 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .atle_main_end {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+        margin-top: 5%;
+    }
+
+    .atle_main_mid_right img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .atle_main_mid_right {
+        margin: inherit;
+    }
+
+    .atle_main_mid {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+        margin-top: 5%;
+    }
+
+    .atle_main_top {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+        margin-top: 5%;
+    }
+
+    .atle_header_end {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 25px;
+        margin-top: 5%;
+    }
+
+    .atle_header_top_right img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    .atle_header_top {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 20px 25px;
+    }
+
+    .atle_header_top {
+        position: relative;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 20px 25px;
+    }
+
+    .atle_header_mid_two {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        width: 100%;
+        max-width: 874px;
+        background: #FFEFD0;
+        padding: 20px 60px 20px 60px;
+        border-radius: 30px;
+        margin: auto;
+    }
+
+    .atle_header_mid_left {
+        width: 100%;
+        max-width: none;
+    }
+
+    .atle_header_mid_right {
+        width: 100%;
+        max-width: none;
+    }
+
+    .atle_header_mid {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 4%;
+        padding: 20px 25px;
+    }
+}
+
+@media (max-width:750px) {
+    .atle_sect_mid_right {
+        width: 100%;
+    }
+
+    .atle_sect_mid_right img {
+        width: 100%;
+    }
+
+    .home_top_left h1 {
+        font-size: 40px !important;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+@media (max-width:600px) {
+    .atle_sect_mid_right {
+        width: 100%;
+    }
+
+    .atle_sect_mid_right img {
+        width: 100%;
+    }
+
+    .atle_head_end_right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .atle_main_top_grop {
+        display: none;
+    }
+}
+
+@media(max-width: 430px) {
+    .avtor_and_putes h1{
+        font-size: 4vw;
+    }
+    .price_work h1{
+        font-size: 8vw;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:420px) {
+    .atle_sect_mid {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+    
+    .table_literueu {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 3%;
+        padding: 0 20px;
+    }
+
+    .block_block {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 2%;
+        padding: 0 20px;
+    }
+
+    .avtor_and_putes {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .read_card_num_1 {
+        width: 100%;
+        max-width: 1440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    .atle_main_end {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains2 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains3 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .text_mains4 {
+        width: 100%;
+        max-width: 1440px;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .atle_main_top {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 20px;
+        margin-top: 5%;
+    }
+
+    .atle_header_end {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 0px 20px;
+        margin-top: 5%;
+    }
+
+    .atle_header_mid_two {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        width: 100%;
+        max-width: 874px;
+        background: #FFEFD0;
+        padding: 20px 40px 20px 40px;
+        border-radius: 30px;
+        margin: auto;
+    }
+    
+    .home_top_left h1 {
+        font-size: 30px !important;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .atle_header_mid {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 4%;
+        padding: 20px 20px;
+    }
+
+    .atle_header_top {
+        position: relative;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        padding: 20px 20px;
+    }
+}
