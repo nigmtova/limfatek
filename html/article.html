@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/clinic.css">
+</head>
+<body>
+    <div class="Articles_main">
+        <button class="accordion">Стоимость консультации лимфолога</button>
+<div class="panel">
+  <p>Консультация врача <span>3 000 ₽</span></p>
+  <p>Консультация врача, к.м.н. <span>3 000 ₽</span></p>
+  <p>Консультация врача, д.м.н. <span>3 000 ₽</span></p>
+  <p>Консультация врача по результатам диагностики <span>3 000 ₽</span></p>
+</div>
+
+<button class="accordion">Стоимость диагностики</button>
+<div class="panel">
+  <p>Bu, bölüm 2 içeriğidir.</p>
+</div>
+
+<button class="accordion">Стоимость лечения</button>
+<div class="panel">
+  <p>Bu, bölüm 3 içeriğidir.</p>
+</div>
+        <div class="avtors_cards">
+            <h1>Авторы и редакторы</h1>
+            <div class="second_avtor_cards">
+                <h2>Дата публикации: 2023-04-17</h2>
+                <h2>Дата обновления: 2023-04-17</h2>
+            </div>
+            <div class="third_avtor_cards">
+                <h2>Автор</h2>
+                <img src="../img/image 172.png" alt="">
+                <div class="fors_block">
+                    <h2>Александр Сидоров</h2>
+                    <h3>Врач анестезиолог-реаниматолог, аллерголог-иммунолог</h3>
+                    <h4>41 год стажа</h4>
+                </div>
+            </div>
+            <div class="fours_avtor_cards">
+                <h2>Информация проверена экспертом</h2>
+                <img src="../img/image 173.png" alt="">
+                <div class="for_blockkss">
+                    <h2>Надежда Гаряева</h2>
+                    <h3>Профессор, врач семейной медицины, онколог, лимфолог Доктор наук</h3>
+                        <h4>42 года стажа</h4>
+                </div>
+            </div>
+                <div class="fivetis">
+                    <h2>Список Литературы</h2>
+                    <p>При составлении статьи мы сознательно упрощаем некоторый материал, чтобы она была понятной для неспециалистов. Если Вы врач, мы с удовольствием ответим на Ваши вопросы. Напишите или позвоните нам для обсуждения деталей. Для подготовки этого материала были использованы публикации:</p>
+                    <p>Анестиади В.Х., Нагорнев В.А. Морфогенез атеросклероза. — Кишинев: Штиинца, 1982. — 324 с.Левин Ю.М. Основы лечебной лимфологии. — М.: Медицина, 1986. — 288 с., ил.</p>
+                </div>
+        </div>
+        <div class="for_bottom_11_cards">
+            <div class="for_bottom_11_card">
+                <h2>атеросклероз</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>бляшка</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>облитерирующий</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>сонная артерия</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>холестерин</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>короносклероз</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>кардиосклероз</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>бца</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>брахиоцефальные</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>лечение</h2>
+            </div>
+            <div class="for_bottom_11_card">
+                <h2>терапия</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

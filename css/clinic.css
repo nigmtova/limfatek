@@ -353,6 +353,155 @@
     color: red;
 }
 
+.for_bottom_11_card{
+    background-color: #74928A;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+}
+
+.for_bottom_11_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px !important;
+}
+
+.for_bottom_11_card h2{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.Articles_main{
+    padding: 20px;
+}
+
+.avtors_cards h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.avtors_cards{
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+}
+
+.second_avtor_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_avtor_cards h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.third_avtor_cards{
+    display: flex;
+    margin-top: 15px;
+}
+
+.third_avtor_cards h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.third_avtor_cards h3{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 7px;
+    max-width: 300px;
+    width: 100%;
+    line-height: 24px;
+}
+
+.third_avtor_cards h4{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+.third_avtor_cards img{
+    margin: 0 20px;
+}
+
+.fours_avtor_cards{
+    display: flex;
+    margin-top: 60px;
+}
+
+.fours_avtor_cards img{
+    margin: 0 20px;
+}
+
+.fours_avtor_cards h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fours_avtor_cards h3{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 7px;
+    max-width: 330px;
+    width: 100%;
+    line-height: 24px;
+}
+
+.fours_avtor_cards h4{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+.fivetis p{
+    margin-top: 40px;
+}
+
+.fivetis{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .panel p{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-top: 35px;
+  }
+
+
+
+
+
 
 
 
