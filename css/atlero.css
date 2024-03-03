@@ -700,6 +700,53 @@
     transform: rotate(-90deg);
   }
 
+.table_02 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 7%;
+    padding: 0 60px;
+}
+
+.table2 {
+    width: 100%;
+    max-width: 1096px;
+    margin: auto;
+    table-layout: fixed;
+    margin-top: 50px;
+}
+
+.table2, th, td {
+    border-width: 1px !important;
+    border: 1px dotted #000;
+    border-collapse: collapse;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.table2 th:nth-child(4n+2) {
+    background-color: #74928ab6;
+}
+
+.table2 th:nth-child(4n+3) {
+    background-color: #FFEFD0;
+}
+
+.table2 th:nth-child(4n+4) {
+    background:#a637379a;
+}
+
+.table2 td:nth-child(4n+2) {
+    background-color: #74928ab6;
+}
+
+.table2 td:nth-child(4n+3) {
+    background-color: #FFEFD0;
+}
+
+.table2 td:nth-child(4n+4) {
+    background:#a637379a;
+}
 
 
 
@@ -847,6 +894,14 @@
 }
 
 @media (max-width:1000px) {
+    .table_02 {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 7%;
+        padding: 0 25px;
+    }
+
     .price_work1{
         padding: 20px;
     }
@@ -1099,6 +1154,14 @@
 }
 
 @media (max-width:420px) {
+    .table_02 {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 7%;
+        padding: 0 20px;
+    }
+
     .atle_sect_mid {
         width: 100%;
         max-width: 1350px;
