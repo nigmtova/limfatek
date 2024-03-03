@@ -13,7 +13,7 @@
     display: flex;
     gap: 20px;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 20px 60px;
 }
@@ -43,7 +43,7 @@
 
 .atle_header_mid {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     margin-top: 4%;
     padding: 20px 60px;
@@ -87,7 +87,7 @@
 
 .atle_header_end {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
     margin-top: 5%;
@@ -134,7 +134,7 @@
 
 .atle_main_top {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
     margin-top: 5%;
@@ -179,13 +179,46 @@
 }
 .text_mains {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     text-align: center;
     margin: auto;
     font-weight: 700;
     font-style: normal;
     padding: 0 60px;
     margin-top: 5%;
+}
+.atle_two_black img{
+    margin: auto;
+    display: flex;
+    margin-top: 30px !important;
+}
+.atle_two_black h6{
+    margin: auto;
+    max-width: 650px;
+    width: 100%;
+    margin-top: 15px !important;
+    font-size: 16px;
+}
+.atle_two_black h5{
+    margin: auto;
+    max-width: 650px;
+    color: #74928A;
+    width: 100%;
+    margin-top: 25px !important;
+    font-size: 18px;
+}
+
+.atle_two_black{
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 60px !important;
+}
+
+.table_bot_h6{
+    text-align: center;
+    margin-top: 20px;
 }
 
 .text_mains h1 {
@@ -199,7 +232,7 @@
 
 .text_mains2 {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     text-align: center;
     margin: auto;
     font-family: "Mulish", sans-serif;
@@ -221,7 +254,7 @@
 
 .text_mains3 {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     text-align: center;
     margin: auto;
     font-family: "Mulish", sans-serif;
@@ -248,7 +281,7 @@
 
 .text_mains4 {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     margin-top: 5%;
     padding: 0 60px;
@@ -296,7 +329,7 @@
 
 .read_card_num_1 {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -355,9 +388,10 @@
 
 .avtor_and_putes {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
+    margin-top: 150px !important;
 }
 
 .avtor_and_putes_header_text {
@@ -411,6 +445,15 @@
     align-items: center;
 }
 
+.for_center_images{
+    max-width: 650px;
+    margin: auto;
+}
+
+.for_center_images img{
+    width: 100%;
+}
+
 .avtor_and_putes_divs_div_text2 {
     margin-left: 10px;
 }
@@ -424,7 +467,7 @@
 
 .table_literueu {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     margin-top: 3%;
     padding: 0 60px;
@@ -440,13 +483,13 @@
 
 .block_block {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     margin-top: 2%;
-    padding: 0 60px;
+    padding: 20px 60px;
 }
 
 .blocks_block_block {
@@ -456,6 +499,10 @@
     color: white;
     margin: 3px;
     font-weight: 300;
+}
+
+.blocks_block_block p{
+    margin-bottom: 0;
 }
 
 .atle_main_mid_blue {
@@ -487,7 +534,7 @@
 
 .atle_main_mid {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
     margin-top: 5%;
@@ -495,6 +542,7 @@
 
 .atle_main_mid h2 {
     margin-bottom: 2rem;
+    font-size: 20px;
 }
 
 .atle_main_mid h1 {
@@ -524,7 +572,7 @@
 
 .atle_main_end {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
     margin-top: 5%;
@@ -553,7 +601,7 @@
 
 .atle_sect_top {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     margin-top: 5%;
 }
@@ -564,7 +612,7 @@
 
 .atle_sect_mid {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1350px;
     margin: auto;
     padding: 0 60px;
     margin-top: 5%;
@@ -582,6 +630,78 @@
     display: flex;
     gap: 20px;
 }
+
+.accordion {
+    background-color: #74928A;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fors_circless{
+    margin-left: 13px;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    transition: .5s;
+  }
+  .panels_flex{
+    padding-bottom: 20px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .panels_flex h3{
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+  }
+
+  .for_panels{
+    max-width: 870px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+.price_work1{
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+    padding: 0 60px;
+    margin-top: 40px !important;
+}
+  .for_acc_circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accordion i{
+    color: #669999;
+    transform: rotate(-90deg);
+  }
+
+
+
 
 
 
@@ -651,6 +771,10 @@
 }
 
 @media(max-width: 490px) {
+    .text_cart_title{
+        width: 100%;
+        margin-top: 10px;
+    }
     .number_div_text {
         flex-wrap: wrap;
         position: relative;
@@ -713,14 +837,22 @@
 .avtor_and_putes_divs_div2 {
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+}
+.avtor_and_putes_divs_div_text2{
+    margin-left: 0;
+}
+.avtor_and_putes_divs_div_text{
+    margin-left: 0;
 }
 }
 
 @media (max-width:1000px) {
+    .price_work1{
+        padding: 20px;
+    }
     .atle_sect_mid {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
         margin-top: 5%;
@@ -728,7 +860,7 @@
 
     .block_block {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -739,14 +871,14 @@
 
     .avtor_and_putes {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
     }
 
     .table_literueu {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         margin-top: 3%;
         padding: 0 25px;
@@ -754,7 +886,7 @@
 
     .read_card_num_1 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -764,7 +896,7 @@
 
     .text_mains {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -775,7 +907,7 @@
 
     .text_mains2 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -786,7 +918,7 @@
 
     .text_mains3 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -797,7 +929,7 @@
 
     .text_mains4 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -808,7 +940,7 @@
 
     .atle_main_end {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
         margin-top: 5%;
@@ -825,7 +957,7 @@
 
     .atle_main_mid {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
         margin-top: 5%;
@@ -833,7 +965,7 @@
 
     .atle_main_top {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
         margin-top: 5%;
@@ -841,7 +973,7 @@
 
     .atle_header_end {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 25px;
         margin-top: 5%;
@@ -861,7 +993,7 @@
         flex-wrap: wrap;
         gap: 20px;
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 20px 25px;
     }
@@ -871,7 +1003,7 @@
         display: flex;
         gap: 20px;
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 20px 25px;
     }
@@ -900,7 +1032,7 @@
 
     .atle_header_mid {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         margin-top: 4%;
         padding: 20px 25px;
@@ -926,6 +1058,16 @@
 @media (max-width:600px) {
     .atle_sect_mid_right {
         width: 100%;
+    }
+    .panels_flex h3{
+        font-size: 16px;
+    }
+    .panel{
+        padding: 0;
+    }
+    .accordion{
+        font-size: 18px;
+
     }
 
     .atle_sect_mid_right img {
@@ -955,7 +1097,7 @@
 @media (max-width:420px) {
     .atle_sect_mid {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 20px;
         margin-top: 5%;
@@ -963,7 +1105,7 @@
     
     .table_literueu {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         margin-top: 3%;
         padding: 0 20px;
@@ -971,25 +1113,25 @@
 
     .block_block {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
         margin-top: 2%;
-        padding: 0 20px;
+        padding: 20px 20px;
     }
 
     .avtor_and_putes {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 20px;
     }
 
     .read_card_num_1 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -999,7 +1141,7 @@
 
     .atle_main_end {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 20px;
         margin-top: 5%;
@@ -1007,7 +1149,7 @@
 
     .text_mains {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -1018,7 +1160,7 @@
 
     .text_mains2 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -1029,7 +1171,7 @@
 
     .text_mains3 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -1040,7 +1182,7 @@
 
     .text_mains4 {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         text-align: center;
         margin: auto;
         font-weight: 700;
@@ -1051,7 +1193,7 @@
 
     .atle_main_top {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0 20px;
         margin-top: 5%;
@@ -1059,7 +1201,7 @@
 
     .atle_header_end {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 0px 20px;
         margin-top: 5%;
@@ -1085,7 +1227,7 @@
 
     .atle_header_mid {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         margin-top: 4%;
         padding: 20px 20px;
@@ -1096,7 +1238,7 @@
         display: flex;
         gap: 20px;
         width: 100%;
-        max-width: 1440px;
+        max-width: 1350px;
         margin: auto;
         padding: 20px 20px;
     }
