@@ -1045,7 +1045,39 @@ body {
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
+.for_Homes_main{
+    padding: 20px;
+}
+.lechim{
+    background-color: #669999;
+    border-radius: 40px;
+    padding-top: 60px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.lechim h2{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+.for_images_lechim{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.for_lechim_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.for_images_lechim h4{
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
 
 
 
