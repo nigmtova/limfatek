@@ -467,6 +467,9 @@
     max-width: 1000px;
     width: 100%;
 }
+.for_Homes_main{
+    overflow: hidden;
+}
 
 
 
@@ -553,12 +556,46 @@
 }
 
 @media(max-width: 800px) {
+    .for_contact_texts{
+        display: block !important;
+    }
+    .consultatsiya{
+        display: block !important;
+        border-radius: 20px; 
+    }
+    .for_first_consul img{
+        padding: 20px;
+    }
+    .for_youtube_videos iframe{
+        height: 50vw !important;
+    }
+    .videos_green_div{
+        height: 210px;
+        padding: 20px !important;
+    }
+    .for_youtube_videos{
+        grid-template-columns: auto !important;
+    }
     .what_cards {
         grid-template-columns: auto auto;
     }
-
+    .for_first_consul{
+        width: 100% !important;
+    }
+    .for_first_consul img{
+        width: 100%;
+    }
+    #for_first_consul{
+        padding-right: 20px;
+    }
     .for_metod_cards h2 {
         font-size: 22px;
+    }
+    .for_first_consul input{
+        max-width: 100% !important;
+    }
+    .for_first_consul button{
+        max-width: 100% !important  ;
     }
 
     .for_metod_cards h4 {
@@ -602,9 +639,66 @@
     .for_profiles_card{
         width: 100%;
     }
+    .second_reyt_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second_reyt_card{
+        max-width: 46.5% !important;
+        margin-top: 15px;
+    }
+    .second_reyt_card img{
+        height: 14vw !important;
+    }
+}
+
+@media(max-width: 360px){
+    
+    .second_reyt_card{
+        max-width: 100% !important;
+    }
+    .second_reyt_card img{
+        height: 25vw !important;
+    }
 }
 
 @media(max-width: 500px) {
+    .for_footer_end{
+        display: block !important;
+    }
+    .for_first_footer{
+        margin-top: 20px;
+    }
+    .for_footer_end p {
+        font-size: 14px;
+    }
+    .for_contact_texts p{
+        font-size: 14px;
+    }
+    .contacts_div iframe{
+        height: 250px;
+    }
+    .contacts_div{
+        padding-top: 40px !important;
+    }
+    .second_reyt_card h4{
+        font-size: 18px !important;
+    }
+    .for_df_2{
+        gap: 20px !important;
+    }
+    .locations_div h3{
+        font-size: 14px !important;
+    }
+    .locations_div1 h3{
+        font-size: 14px !important;
+    }
+    .locations_divs h4{
+        font-size: 14px !important;
+    }
+    .for_profiles img{
+        width: 75px !important;
+    }
     .for_profiles_card{
         border: 2px solid #74928A;
         margin-top: 20px;
@@ -614,7 +708,8 @@
     }
 
     .what_title h3 {
-        font-size: 30px;
+        font-size: 28px;
+        text-align: center;
     }
 
     .for_metod_cards {
